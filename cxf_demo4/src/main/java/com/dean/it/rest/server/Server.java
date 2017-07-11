@@ -6,5 +6,6 @@ public class Server {
 		restFactory.setResourceClasses(StudentServiceImpl.class);
 		restFactory.setAddress("http://localhost:8888/");
 		restFactory.create();
+		System.out.println("server start on 8888 port...");
 	}
 }
